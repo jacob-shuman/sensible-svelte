@@ -2,9 +2,11 @@ name: Automerge Dependabot PR
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - main
+  workflow_run:
+    types:
+      - completed
+    workflows:
+      - 'CI'
 
 jobs:
   automerge:
