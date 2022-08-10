@@ -3,8 +3,6 @@
 	import '../app.css';
 </script>
 
-<main>
-	<slot />
-</main>
+<slot />
 
 <Toaster />
