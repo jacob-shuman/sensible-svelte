@@ -28,6 +28,19 @@
 
 		<div class={tw`group px-2`}>
 			<a
+				href="https://www.typescriptlang.org/"
+				class={tw(
+					`w-16 h-16 bg-[#fff7ef] border-1 border-[#ffd5a8] rounded-lg flex justify-center items-center`,
+					`group-hover:(bg-[#ffba70] bg-opacity-25 w-24)`,
+					`transition-all duration-300 ease-out`
+				)}
+			>
+				<Icon icon="vscode-icons:file-type-typescript" alt="TypeScript" height="48" width="48" />
+			</a>
+		</div>
+
+		<div class={tw`group px-2`}>
+			<a
 				href="https://tailwindcss.com/"
 				class={tw(
 					`w-16 h-16 bg-[#fff7ef] border-1 border-[#ffd5a8] rounded-lg flex justify-center items-center`,
